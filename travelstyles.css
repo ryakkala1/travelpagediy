@@ -1,0 +1,121 @@
+body {
+    color: #352E2E;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#container{
+	width: 768px;
+	height: auto;
+	background-color:#FFFFFF;
+	margin: auto;
+}
+h1 {
+    color: #6BE7FF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*Float the Aside so it displays next to the Main*/
+aside {
+    width: 150px;
+    height: 1650px;
+    background-color: #A79D9D;
+    float: left;
+}
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url("header2.png");
+}
+/*Float the main so it shows up next to the Aside. Reduce width by 150px so they both line the header.*/
+main {
+    background-color: #FFFFFF;
+    width: 568px;
+    height: 1600px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+img {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: right;
+}
+
+.floatLeft {	
+	float: left;
+}
+article {
+    margin-bottom: 50px;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #6BE7FF;
+    clear: both;
+}
+nav {
+    width: 1200px;
+    height: 50px;
+    font-size: 9px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 55px 0px 0px;
+    width: 60px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 11pt;
+}
+#container nav ul {
+    width: 490px;
+}
+nav a:link {
+    color: #6BE6FE;
+	padding:15px;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #662096;
+}
+nav a:hover {
+    text-decoration: none;
+	color:white;
+	background-color:#6BE6FE;
+	padding:10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #1C1A1A;
+}.submit_btn {
+    width: 170px;
+    height: 30px;
+    background-color: #6BE6FE;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+
+submit.btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}

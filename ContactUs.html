@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Page</title>
+<link href="Contactusstyles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="container">
+  <header></header>
+  <nav>
+	<ul>
+	  <li><a href="france.html">About</a></li>
+	    <li><a href="st_tropez.html">Tropez</a></li>
+	    <li><a href="">Loire</a></li>
+		  <li><a href="">Paris</a></li>
+		<li><a href="ContactUs.html">Contact</a></li>
+	  </ul>
+  </nav>
+	  <!--Begin Floated Elements-->
+  <aside>
+    <h3>Explore the luxurious destinations we provide through Journey To France and take in the wonderful sights the country has to offer.</h3>
+    <h3>Choose from 3 distinct trips that display the diversity of France's landscape.</h3>
+    <h3>- Journey to France</h3>
+	</aside>
+  <main>
+    <h1>Contact Us</h1>
+    <form>
+	  <p>Your Name: <input name="user_name" type="text" id="" value="First and Last Name Please" size="50"></p> 
+		 <p>Your Email: <input name="user_email" type="email" id="user_email" size="50"></p> 
+	  <p>Leave a message:<br>
+      <textarea name="user_comment" cols="65" rows="10" id="user_comment"></textarea></p>
+		<p>Which trip are you interested in taking?</p>
+	  <p>
+		    <label>
+		      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+		      St.Tropez&nbsp;</label>
+		    <br>
+		    <label>
+		      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+		      The Loire Valley</label>
+		    <br>
+		    <label>
+		      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+		      Paris		      </label>
+		    <br>
+		    <label>
+        </label>
+		    <br>
+      </p>
+		<input type="submit" class="submit_btn" formaction="comment-box.php" formmethod="POST" value="Send Us A Message">
+    </form>
+  </main>
+<!--End Floated Elements-->
+  <footer>&nbsp;</footer>
+</div>
+</body>
+</html>
